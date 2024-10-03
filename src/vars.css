@@ -1,7 +1,7 @@
 :root {
     /*Colours */
-    --color-text: rgb(148 163 184);
-    --color-primary: #576cbc;
+    --color-text:#94A4B8;
+    --color-title: #e2e8f0;
     --color-bg: rgb(15 23 42);
 
     /*FONTS*/

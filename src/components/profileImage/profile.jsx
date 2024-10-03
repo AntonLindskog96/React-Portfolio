@@ -8,9 +8,9 @@ const Profile = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Anton Lindskog</h1>
         <p className={styles.description}>Junior Developer</p>
-        <a href="mailto:lindskog96@live.se" className={styles.contactButton}>
+        {/*   <a href="mailto:lindskog96@live.se" className={styles.contactButton}>
           Contact me
-        </a>
+        </a> */}
       </div>
       <img
         className={styles.ProfileImage}

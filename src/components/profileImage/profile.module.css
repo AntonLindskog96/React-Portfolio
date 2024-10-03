@@ -12,6 +12,7 @@
 }
 
 .content {
+    position: sticky;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -20,12 +21,11 @@
 }
 
 .title {
+    color: var(--color-title);
     font-size: 72px;
     font-weight: 900;
-    margin-bottom: 33px;
     font-family: var(--font-roboto);
     background: linear-gradient(90deg, rgba(255,255,255,1)70% rgba(255,255,255,0)120%);
-    -webkit-background-clip: text;
     z-index: 1;
 }
 
@@ -47,6 +47,7 @@
 }
 
 .ProfileImage {
+    position: relative;
     width: 30%;
     z-index: 1;
     animation-name: floating;
