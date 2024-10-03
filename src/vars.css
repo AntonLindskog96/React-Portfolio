@@ -1,8 +1,8 @@
 :root {
     /*Colours */
-    --color-text: #fff;
+    --color-text: rgb(148 163 184);
     --color-primary: #576cbc;
-    --color-bg: #050636;
+    --color-bg: rgb(15 23 42);
 
     /*FONTS*/
     --font-roboto: "Roboto";
