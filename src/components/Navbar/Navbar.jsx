@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
-import styles from "./Navbar.module.css"; // Assuming you're using CSS Modules
-import { getImageUrl } from "../../utils"; // Function to get image URLs
-
+import styles from "./Navbar.module.css";
+import { getImageUrl } from "../../utils";
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
@@ -23,20 +22,7 @@ const Navbar = () => {
         <ul
           className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : ""}`}
           onClick={() => setMenuOpen(false)}
-        >
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#experience">Experience</a>
-          </li>
-          <li>
-            <a href="#project">Projects</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
+        ></ul>
       </div>
     </nav>
   );
