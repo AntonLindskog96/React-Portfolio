@@ -8,7 +8,7 @@ const About = () => {
       <div className={styles.content}>
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <div className={styles.aboutItemText}>
+            <div id="experience" className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
               <p>
                 I'm a frontend developer with experience in building responsive

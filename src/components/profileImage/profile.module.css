@@ -8,7 +8,6 @@
     z-index: 1;
     margin-left: 18%;
     margin-right: 18%;
-    padding-bottom: 6rem;
 }
 .rightSection {
     padding-top: 6rem;
@@ -43,11 +42,6 @@
     
 }
 
-.navWrapper {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-}
 
 .navTitle {
     color: var(--color-primary);
@@ -56,6 +50,8 @@
     align-items: center;
     position: relative;
     margin-top: 20px;
+    text-decoration: none;
+    
 }
 
 .navTitle::before {
@@ -89,39 +85,12 @@
 }
 
 
-.ProfileImage {
-    position: sticky;
-    width: 30%;
-    z-index: 1;
-    animation-name: floating;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease;
-    height: auto; 
-    border-radius: 50%; 
+.icon {
+    padding-top: 20rem;
+    width: 1.5rem;
+    cursor: pointer;
+    margin-right: 20px;
+    color: var(--color-text);
 }
 
-@keyframes floating {
-    0% {
-        transform: translate(0, 0px);
-    }
-    50% {
-        transform: translate(0, 10px);
-    }
-    100% {
-        transform: translate(0, -0px);
-    }
-}
-
-@media screen and (max-width: 830px) {
-    .container {
-        flex-direction: column-reverse;
-    }
-    .content {
-        align-items: center;
-    }
-    .ProfileImage {
-        width: 50%;
-    }
-}
 

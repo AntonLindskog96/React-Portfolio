@@ -9,22 +9,30 @@ const Profile = () => {
       <div className={styles.leftSection}>
         <h1 className={styles.title}>Anton Lindskog</h1>
         <p className={styles.description}>Junior Developer</p>
-        <div className={styles.navWrapper}>
-          <div className={styles.navItem}>
-            <span className={styles.navLine}></span>
-            <p className={styles.navTitle}>Om mig</p>
-          </div>
-          <div className={styles.navItem}>
-            <span className={styles.navLine}></span>
-            <p className={styles.navTitle}>Erfarenheter</p>
-          </div>
-          <div className={styles.navItem}>
-            <span className={styles.navLine}></span>
-            <p className={styles.navTitle}>Projekt</p>
-          </div>
-        </div>
+
+        <nav>
+          <a href="#about" className={styles.navTitle}>
+            Om mig
+          </a>
+          <a href="#experience" className={styles.navTitle}>
+            Erfarenheter
+          </a>
+          <a href="#projects" className={styles.navTitle}>
+            Projekt
+          </a>
+        </nav>
+        <img
+          src={getImageUrl("nav/linkedin.png")}
+          alt="LinkedIn"
+          className={styles.icon}
+        ></img>
+        <img
+          src={getImageUrl("nav/github.png")}
+          alt="LinkedIn"
+          className={styles.icon}
+        ></img>
       </div>
-      <section className={styles.rightSection}>
+      <section id="about" className={styles.rightSection}>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
           natus, molestiae totam numquam quo, quod enim quasi nostrum libero,
