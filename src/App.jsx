@@ -1,7 +1,6 @@
 import styles from "./App.module.css";
 import React, { useEffect, useRef } from "react";
-import Profile from "./components/profileImage/profile";
-import Projects from "./components/Projects/projects";
+import Profile from "./components/Profile/profile";
 
 function App() {
   const auraRef = useRef(null); // Create a reference for the aura element

@@ -44,6 +44,7 @@
 }
 
 
+
 .navTitle {
     color: var(--color-primary);
     cursor: pointer;
@@ -52,8 +53,13 @@
     position: relative;
     margin-top: 20px;
     text-decoration: none;
-    
+    scroll-snap-align: start;
 }
+
+
+
+
+
 
 .navTitle::before {
     content: "";
@@ -70,6 +76,11 @@
     width: 64px; 
     background-color: var(--color-title); 
 }
+
+.active {
+    color: #ff6347; /* Example highlight color */
+    font-weight: bold;
+  }
 
 .navTitle:hover {
     color: var(--color-title);

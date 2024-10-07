@@ -1,8 +1,8 @@
 import React from "react";
 import { getImageUrl } from "../../utils";
-import styles from "./About.module.css";
+import styles from "./experience.module.css";
 
-const About = () => {
+const Experience = () => {
   return (
     <section className={styles.container} id="about">
       <div className={styles.content}>
@@ -46,4 +46,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Experience;
