@@ -12,6 +12,7 @@
 .rightSection {
     padding-top: 6rem;
     flex: 2;
+    z-index: 1;
 }
 
 .leftSection {

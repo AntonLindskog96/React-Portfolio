@@ -2,6 +2,7 @@ import React from "react";
 import { getImageUrl } from "../../utils";
 import styles from "./profile.module.css";
 import About from "../About/About";
+import Projects from "../Projects/projects";
 
 const Profile = () => {
   return (
@@ -40,6 +41,7 @@ const Profile = () => {
           nihil? Rerum, similique ullam.
         </p>
         <About />
+        <Projects />
       </section>
     </section>
   );
