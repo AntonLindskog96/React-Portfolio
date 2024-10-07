@@ -6,4 +6,7 @@
 
     /*FONTS*/
     --font-roboto: "Roboto";
+
+    --font-size-medium: 18px;
+    --font-size-mediumLarge: 25px;
 }
