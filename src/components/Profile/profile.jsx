@@ -2,7 +2,7 @@ import React from "react";
 import { getImageUrl } from "../../utils";
 import styles from "./profile.module.css";
 import Projects from "../Projects/projects";
-import Experience from "../Experience/Experience";
+import Experience from "../Experience/experience";
 import Footer from "../Footer/footer";
 
 const Profile = () => {
