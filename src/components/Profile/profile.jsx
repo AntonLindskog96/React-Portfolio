@@ -10,7 +10,7 @@ const Profile = () => {
     <section className={styles.container}>
       <div className={styles.leftSection}>
         <h1 className={styles.title}>Anton Lindskog</h1>
-        <p className={styles.description}>Junior Developer</p>
+        <p className={styles.description}>System Developer</p>
         <nav className={styles.navWrapper}>
           <a href="#about" className={styles.navTitle}>
             Om mig
@@ -59,10 +59,11 @@ const Profile = () => {
       </div>
       <section id="about" className={styles.rightSection}>
         <p className={styles.aboutText}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-          natus, molestiae totam numquam quo, quod enim quasi nostrum libero,
-          dolore reiciendis dolorum dignissimos animi molestias voluptatum
-          nihil? Rerum, similique ullam.
+          Hej! Jag heter Anton och är en nyutbildad systemutvecklare med en
+          passion för att skapa lösningar som förenklar, automatiserar och
+          förbättrar användarupplevelser. Under min utbildning har jag fördjupat
+          mig i modern systemutveckling, med en särskild inriktning på front &
+          backendutveckling, databashantering och Cloud & DevOps.
         </p>
         <Experience />
         <Projects />

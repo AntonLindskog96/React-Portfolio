@@ -11,8 +11,8 @@ const Experience = () => {
             <div id="experience" className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
               <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
+                Jag är en frontend-utvecklare med erfarenhet av att bygga
+                responsiva och optimerade webbplatser.
               </p>
               <button className={styles.aboutButton}>Typescript</button>
               <button className={styles.aboutButton}>Javascript</button>
@@ -23,21 +23,29 @@ const Experience = () => {
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
               <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
+                Jag har erfarenhet av att utveckla snabba och optimerade
+                backend-system och API.
               </p>
               <button className={styles.aboutButton}>Springboot</button>
               <button className={styles.aboutButton}>Java</button>
-              <button className={styles.aboutButton}>c#</button>
+              <button className={styles.aboutButton}>C#</button>
+              <button className={styles.aboutButton}>Docker</button>
+              <button className={styles.aboutButton}>Kubernetes</button>
+              <button className={styles.aboutButton}>CI/CD</button>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
+              <h3>Databashantering</h3>
               <p>
-                I have designed multiple landing pages and have created design
-                systems as well
+                Jag har erfarenhet av att designa, optimera och underhålla
+                databaser för att säkerställa effektiv lagring och snabb åtkomst
+                av data.
               </p>
+              <button className={styles.aboutButton}>PostgreSQL</button>
+              <button className={styles.aboutButton}>MongoDB</button>
+              <button className={styles.aboutButton}>MySQL</button>
+              <button className={styles.aboutButton}>SQLite</button>
             </div>
           </li>
         </ul>
